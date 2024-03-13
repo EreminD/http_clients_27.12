@@ -30,7 +30,7 @@ public class TaskService {
     }
 
     public Task createNewTask() throws IOException {
-        return createNewTask("to be deleted");
+        return createNewTask( "to be deleted");
     }
     public Task createNewTask(String title) throws IOException {
         ObjectMapper mapper = new ObjectMapper();
